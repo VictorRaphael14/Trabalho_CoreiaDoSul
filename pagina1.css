@@ -29,6 +29,11 @@ header {
     }
 }
 
+a {
+    color: #FFF;
+    text-decoration: none;
+}
+
 .cadastro {
     h2 {
         text-align: center;
@@ -47,6 +52,12 @@ form {
 
     input {
         border-radius: 3rem;
+        padding: 1rem;
+        padding-inline: 10rem;
+    }
+
+    label {
+        display: block;
     }
 
     button {
