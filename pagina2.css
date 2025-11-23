@@ -67,4 +67,11 @@ form {
         background: oklch(39.6% 0.141 25.723);
         color: white;
     }
+
+
+}
+
+p{
+    text-align: center;
+    margin-top: 1rem;
 }
