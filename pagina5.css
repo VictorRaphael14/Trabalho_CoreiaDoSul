@@ -17,13 +17,25 @@ header {
     padding: 2rem;
 }
 
-a {
+.navegacao {
+    a {
     color: #FFF;
     text-decoration: none;
+    font-size: 3.5rem;
+    margin-right: 15rem;
+    }
+
+    img {
+        width: 10rem;
+    }
    }
 
-.bandeira {
-    width: 10rem;
+.home {
+    margin-left: 7.5rem;
+}
+
+#pontos {
+    color: #ff3131;
 }
 
 .palace img {
@@ -90,7 +102,7 @@ a {
         font-size: 2rem;
         text-align: right;
         margin-right: 135rem;
-        margin-left: 3rem;
+        margin-left: 4rem;
     }
 }
 
@@ -102,7 +114,7 @@ a {
         font-size: 2rem;
         text-align: right;
         margin-right: 135rem;
-        margin-left: 3rem;
+        margin-left: 4rem;
     }
 }
 
@@ -119,5 +131,33 @@ a {
         border-radius: 3rem;
         position: absolute;
         top: 115rem;
+    }
+}
+
+.torre-primeiro {
+    font-family: "Gabarito", sans-serif;
+
+    h3 {
+        font-size: 2rem;
+        margin-top: 15rem;
+        margin-right: 100rem;
+        margin-left: 45rem;
+    }
+
+    p {
+        font-size: 2rem;
+        margin-right: 100rem;
+        margin-left: 45rem;
+    }
+}
+
+.torre-segundo {
+    margin-top: 1.5rem;
+    font-family: "Gabarito", sans-serif;
+
+    p {
+        font-size: 2rem;
+        margin-right: 100rem;
+        margin-left: 45rem;
     }
 }
