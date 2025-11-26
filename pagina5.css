@@ -22,11 +22,12 @@ header {
     color: #FFF;
     text-decoration: none;
     font-size: 3.5rem;
-    margin-right: 14rem;
+    margin-right: 10rem;
     }
 
     img {
         width: 10rem;
+        margin-left: 2rem;
     }
    }
 
@@ -39,14 +40,14 @@ header {
 }
 
 .palace img {
-    width: 172rem;
+    width: 168rem;
     height: 80rem;
     border-radius: 3rem;
     margin-left: 10rem;
 }
 
 .titulo {
-    max-width: 170rem;
+    max-width: 166rem;
     margin: 0 auto;
     font-family: "PT Sans", sans-serif;
     
@@ -95,14 +96,14 @@ header {
         font-size: 2rem;
         text-align: right;
         margin-top: 3rem;
-        margin-right: 135rem;
+        margin-right: 120rem;
     }
 
     p {
         font-size: 2rem;
         text-align: right;
-        margin-right: 135rem;
-        margin-left: 4rem;
+        margin-right: 120rem;
+        margin-left: 20rem;
     }
 }
 
@@ -113,13 +114,13 @@ header {
     p {
         font-size: 2rem;
         text-align: right;
-        margin-right: 135rem;
-        margin-left: 4rem;
+        margin-right: 120rem;
+        margin-left: 20rem;
     }
 }
 
 .imagem-ilha {
-    max-width: 150rem;
+    max-width: 180rem;
     display: flex;
     flex-direction: column;
     justify-content: flex-start;
@@ -139,15 +140,15 @@ header {
 
     h3 {
         font-size: 2rem;
-        margin-top: 15rem;
-        margin-right: 100rem;
-        margin-left: 50rem;
+        margin-top: 17rem;
+        margin-right: 85rem;
+        margin-left: 60rem;
     }
 
     p {
         font-size: 2rem;
-        margin-right: 100rem;
-        margin-left: 50rem;
+        margin-right: 85rem;
+        margin-left: 60rem;
     }
 }
 
@@ -157,8 +158,8 @@ header {
 
     p {
         font-size: 2rem;
-        margin-right: 100rem;
-        margin-left: 50rem;
+        margin-right: 85rem;
+        margin-left: 60rem;
     }
 }
 
@@ -167,8 +168,8 @@ header {
         height: 45rem;
         width: 40rem;
         border-radius: 3rem;
-        margin-left: 4.5rem;
-        margin-top: -27rem;
+        margin-left: 18rem;
+        margin-top: -25rem;
         margin-bottom: 3rem;
     }
 }
@@ -179,7 +180,7 @@ header {
     h3 {
         font-size: 2rem;
         margin-right: 30rem;
-        margin-left: 100rem;
+        margin-left: 110rem;
         text-align: right;
         margin-top: -35rem;
     }
@@ -187,7 +188,7 @@ header {
     p {
         font-size: 2rem;
         margin-right: 30rem;
-        margin-left: 100rem;
+        margin-left: 110rem;
         text-align: right;
     }
 }
@@ -199,8 +200,19 @@ header {
     p {
         font-size: 2rem;
         margin-right: 30rem;
-        margin-left: 100rem;
+        margin-left: 110rem;
         text-align: right;
+    }
+}
+
+.imagem-palacio {
+    img {
+        border-radius: 3rem;
+        margin-left: 120rem;
+        width: 40rem;
+        height: 48rem;
+        position: absolute;
+        top: 115rem;
     }
 }
 
