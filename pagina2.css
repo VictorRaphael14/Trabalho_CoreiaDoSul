@@ -35,6 +35,11 @@ header {
 a {
     color: #FFF;
     text-decoration: none;
+    margin-left: 8rem;
+}
+
+.home {
+    margin-left: 150rem;
 }
 
 .cadastro {
