@@ -32,7 +32,14 @@ body {
   margin: 0 10px;
   font-weight: 600;
   font-size: 18px;
+
+  a:hover {
+        transform: scale(1.1);
+        font-weight: 700;
+        transition: ease-in-out .4s;
+    }
 }
+
 
 .menu nav .ativo {
   color: red;

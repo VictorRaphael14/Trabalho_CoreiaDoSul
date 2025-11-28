@@ -31,6 +31,12 @@ header {
     font-weight: 600;
 }
 
+a:hover {
+        transform: scale(1.1);
+        font-weight: 700;
+        transition: ease-in-out .4s;
+    }
+
 .navegacao a[href="Culinária"] {
     color: #ff2a2a;
 }

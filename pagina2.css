@@ -38,6 +38,12 @@ a {
     margin-left: 8rem;
 }
 
+a:hover {
+        transform: scale(1.1);
+        font-weight: 700;
+        transition: ease-in-out .4s;
+    }
+
 .home {
     margin-left: 150rem;
 }
