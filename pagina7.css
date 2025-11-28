@@ -1,4 +1,3 @@
-
 * {
   margin: 0;
   padding: 0;
@@ -56,7 +55,7 @@ a:hover {
   color: #0a2b63;
 }
 
-.banner-economia {
+.economia-cima {
   width: 90%;
   margin: 20px auto;
   display: grid;
@@ -64,7 +63,7 @@ a:hover {
   gap: 10px;
 }
 
-.banner-economia img {
+.economia-cima img {
   width: 100%;
   height: 260px;       
   object-fit: cover;  
@@ -86,20 +85,20 @@ a:hover {
   gap: 20px;
 }
 
-.box {
+.secoes {
   background: #dff0ff;
   border-radius: 15px;
   padding: 10px;
 }
 
-.box img {
+.secoes img {
   width: 100%;
   height: 160px;    
   object-fit: cover;
   border-radius: 10px;
 }
 
-.box p {
+.secoes p {
   font-size: 14px;
   margin-top: 8px;
 }
