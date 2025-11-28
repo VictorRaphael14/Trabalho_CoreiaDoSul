@@ -13,26 +13,29 @@ body {
 }
 
 header {
-    background: #113f73;
-    padding: 2rem;
+    background: #113f73;  
+    padding: 1rem 0;
+    width: 100%;
 }
 
 .navegacao {
-    a {
-    color: #FFF;
+    width: 110rem;
+    margin: auto;
+    display: flex;
+    align-items: center;
+    gap: 2.5rem;
+}
+
+.navegacao img {
+    width: 5.5rem;
+}
+
+.navegacao a {
     text-decoration: none;
-    font-size: 3.5rem;
-    margin-right: 10rem;
-    }
-
-    img {
-        width: 10rem;
-        margin-left: 2rem;
-    }
-   }
-
-.home {
-    margin-left: 7.5rem;
+    color: white;
+    font-family: "Montserrat";
+    font-size: 1.8rem;
+    font-weight: 600;
 }
 
 #pontos {
@@ -69,6 +72,7 @@ header {
     font-family: "Gabarito", sans-serif;
     text-align: center;
     margin-bottom: 4rem;
+    width: 140rem;
 }
 
 .linha {
@@ -96,7 +100,8 @@ header {
         font-size: 2rem;
         text-align: right;
         margin-top: 3rem;
-        margin-right: 120rem;
+        margin-right: 121rem;
+        width: 70rem;
     }
 
     p {
@@ -104,6 +109,7 @@ header {
         text-align: right;
         margin-right: 120rem;
         margin-left: 20rem;
+        width: 50rem;
     }
 }
 
@@ -116,6 +122,7 @@ header {
         text-align: right;
         margin-right: 120rem;
         margin-left: 20rem;
+        width: 50rem;
     }
 }
 
@@ -125,13 +132,14 @@ header {
     flex-direction: column;
     justify-content: flex-start;
     align-items: center;
+    width: 180rem;
 
     img {
         height: 35rem;
         width: 35rem;
         border-radius: 3rem;
         position: absolute;
-        top: 115rem;
+        top: 110rem;
     }
 }
 
@@ -143,12 +151,14 @@ header {
         margin-top: 17rem;
         margin-right: 85rem;
         margin-left: 60rem;
+        width: 70rem;
     }
 
     p {
         font-size: 2rem;
         margin-right: 85rem;
         margin-left: 60rem;
+        width: 45rem;
     }
 }
 
@@ -160,6 +170,7 @@ header {
         font-size: 2rem;
         margin-right: 85rem;
         margin-left: 60rem;
+        width: 45rem;
     }
 }
 
@@ -183,6 +194,7 @@ header {
         margin-left: 110rem;
         text-align: right;
         margin-top: -35rem;
+        width: 50rem;
     }
 
     p {
@@ -190,6 +202,7 @@ header {
         margin-right: 30rem;
         margin-left: 110rem;
         text-align: right;
+        width: 50rem;
     }
 }
 
@@ -202,6 +215,7 @@ header {
         margin-right: 30rem;
         margin-left: 110rem;
         text-align: right;
+        width: 50rem;
     }
 }
 
@@ -212,7 +226,7 @@ header {
         width: 40rem;
         height: 48rem;
         position: absolute;
-        top: 115rem;
+        top: 110rem;
     }
 }
 
